@@ -6,6 +6,7 @@ import (
 	"github.com/gdenis91/aocgo-25/day3"
 	"github.com/gdenis91/aocgo-25/day4"
 	"github.com/gdenis91/aocgo-25/day5"
+	"github.com/gdenis91/aocgo-25/day6"
 )
 
 func init() {
@@ -30,6 +31,10 @@ func init() {
 			InputSample: day5.InputSample,
 			InputReal:   day5.InputReal,
 		},
+		6: {
+			InputSample: day6.InputSample,
+			InputReal:   day6.InputReal,
+		},
 	}
 
 	solutionsByDay = map[int]map[Part]Solution{
@@ -52,6 +57,10 @@ func init() {
 		5: {
 			Part1: day5.Part1,
 			Part2: day5.Part2,
+		},
+		6: {
+			Part1: day6.Part1,
+			Part2: day6.Part2,
 		},
 	}
 }
